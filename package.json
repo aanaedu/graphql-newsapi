@@ -1,0 +1,19 @@
+{
+  "name": "graphql-newsapi",
+  "version": "1.0.0",
+  "description": "A sample express graphql implementation for NewsAPI (https://newsapi.org)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": ["newsapi", "graphql", "express.js"],
+  "author": "Anthony Anaedu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "node-fetch": "^2.3.0"
+  }
+}
